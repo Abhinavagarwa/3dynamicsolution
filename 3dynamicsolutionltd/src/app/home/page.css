@@ -1,0 +1,14 @@
+.heading{
+    background-color: aqua;
+    padding:10px;
+    font-size:34px;
+    display: flex;
+    justify-content: center;
+}
+.im{
+    height: 60px;
+    width: 120px;
+}
+.intro{
+    padding-top: 10px;
+}
