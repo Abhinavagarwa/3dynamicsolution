@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Styles from "./page.module.css";
 import Link from "next/link";
+import Navbar from "@/components/navbar/navbar";
 
 export default function Home() {
   return (
     <div>
          <Image className={Styles.im} src="/title.png" alt="" width={400} height={200}></Image>
-         <h1 className={Styles.heading}>3Dynamic Solutions Ltd</h1>
+         <Navbar />
     <div className={Styles.container}> 
     <p>Ready to take your digital presence to the next level? At 3DynamicSolutions Ltd, we make the journey from concept to completion seamless and stress-free. Whether you're starting from scratch or looking to enhance your existing digital strategy, our process is designed with your success in mind.</p> 
     <h3>1. Consultation</h3>
@@ -24,7 +25,7 @@ export default function Home() {
     <p>As your business evolves, we help you adapt and grow. From performance analytics to continuous improvements, we're here to ensure your digital strategy remains effective and relevant.</p>
     <p>Ready to get started? Contact us today to schedule your consultation and discover how 3DynamicSolutions Ltd can help you achieve your digital goals. Your success is just a click away!</p>
       <button className={Styles.btn}>
-      <Link className={Styles.link}href="/home">Get Started</Link>
+      <Link className={Styles.link} href="/home">Get Started</Link>
       </button>
     </div>
     </div>

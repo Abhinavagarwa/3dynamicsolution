@@ -13,6 +13,7 @@ export default function loginpage(){
                 1. Web Design<br></br>
                 2. Consultancy<br></br>
                 3. O2O Model<br></br>
+                4. Rice Mill<br></br>
             </p>
             <h3></h3>
             <p></p>
